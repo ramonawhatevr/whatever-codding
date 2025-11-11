@@ -1,0 +1,16 @@
+def which_direction():
+  go = input("Which way do you want to go, left or right? ")
+  go = go[0].lower()
+  return go
+player = input("What's your name explorer? ")
+print("Welcome to the Auror village,", player)
+print()
+print("You are in a bustling village")
+print("You can see a young, attractive female villager and an old man")
+print("The young lady is on the left, the old man on the right")
+go = input("Which way do you want to go, left or right? ")
+go = which_direction
+if go == 'l':
+   print("You have chosen the young lady")
+if go == 'r':
+   print("You have chosen the old man")
